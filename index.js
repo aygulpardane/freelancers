@@ -1,5 +1,4 @@
 const root = document.getElementById("root");
-console.log(root);
 
 const NAME = "FREELANCERS";
 
@@ -31,13 +30,4 @@ function main() {
     root.appendChild(unorderedList);
 };
 
-//call the main function
 main();
-
-
-
-// Inside your main() function, grab the "root" element, add an h1 element, give it text of "FREELANCERS", and append the HTML document.
-// Continue working inside your main() function to create an unordered list element.
-// Loop through the users array creating li elements.
-// Append those elements to your HTML document.
-// Style your site using CSS.
